@@ -5,6 +5,18 @@ html{
 .botoes{
 	display: flex;
 	justify-content: center;
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	font-size: 4rem;
+}
+
+.mais{
+	font-size:3rem;
 }
 
 iframe {
