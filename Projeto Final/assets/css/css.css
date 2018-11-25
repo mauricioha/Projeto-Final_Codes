@@ -1,4 +1,12 @@
+html{
+	background-color: #FFFFFF;
+}
+
 .botoes{
 	display: flex;
 	justify-content: center;
+}
+
+iframe {
+    background-color: #FFFFFF;
 }
