@@ -1,18 +1,35 @@
 html{
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
 
 .botoes{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	font-size: 3rem;
 	padding: 1rem;
+
+
+}
+.startbutton{
+	font-size: 1.5rem;
 }
 
+.stopbutton{
+	font-size: 1.5rem;
+}
 .header{
+	color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	font-size: 4rem;
+}
+
+.timer{
+	font-size: 3rem;
+	color:#FFFFFF;
+	display: flex;
+	justify-content: center;
+	padding:7rem;
 }
 
 .mais{
