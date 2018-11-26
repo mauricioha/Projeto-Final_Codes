@@ -39,3 +39,26 @@ html{
 iframe {
     background-color: #FFFFFF;
 }
+
+.funcoes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	position: relative;
+	top: 10.9rem;
+}
+
+.cronometro{
+	font-size:4rem;
+}
+
+.listat{
+	font-size:4rem;
+}
+
+.dicas{
+	font-size: 4rem;
+}
+
+a{
+	text-decoration:none;
+}
