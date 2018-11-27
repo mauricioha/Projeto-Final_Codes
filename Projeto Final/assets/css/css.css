@@ -59,7 +59,8 @@ iframe {
 .tempos{
 	font-size: 2.5rem;
 	list-style-type: circle;
-	color: #FFFFFF;
+	color: #FFFF00;
+	padding: 2rem;
 }
 
 .texto{
