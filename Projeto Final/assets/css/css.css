@@ -59,6 +59,7 @@ iframe {
 .tempos{
 	font-size: 2.5rem;
 	list-style-type: circle;
+	color: #FFFFFF;
 }
 
 .texto{
@@ -71,4 +72,6 @@ iframe {
 .dica{
 	display: flex;
 	align-items: center;
+	color: #FFFFFF;
+	font-size: 2rem;
 }
