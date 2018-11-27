@@ -17,6 +17,10 @@ html{
 .stopbutton{
 	font-size: 1.5rem;
 }
+
+.clearbutton{
+	font-size: 1.5rem;
+}
 .header{
 	color: #FFFFFF;
 	display: flex;
@@ -24,7 +28,7 @@ html{
 	font-size: 4rem;
 }
 
-.timer{
+.tempo{
 	font-size: 3rem;
 	color:#FFFFFF;
 	display: flex;
@@ -43,9 +47,8 @@ iframe {
 .funcoes{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	position: absolute;
-	bottom: 0;
-	width:100%;
+	position: relative;
+	top: 10.9rem;
 }
 
 .cronometro{
@@ -62,17 +65,4 @@ iframe {
 
 a{
 	text-decoration:none;
-}
-
-.orientacao{
-	display: flex;
-	justify-content: center;
-	color: #ffffff;
-
-}
-
-.listas{
-	display: flex;
-	justify-content: center;
-	color: #ffffff;
 }

@@ -7,6 +7,8 @@
 		<link href = "assets/css/reset.css" rel="stylesheet">
 		<link href = "assets/css/css.css" rel = "stylesheet">
 
+		<script src="assets/java/timer.js"></script>
+
 		<title>RManage</title>
 	</head>
 	<body>
@@ -16,12 +18,12 @@
 		</nav>
 		
 		<nav class = middle>
-			<div class = timer>00:00:00</div>
-		</nav>
-
-		<div class = botoes>
-			<button class="startbutton">Start</button>
-			<button class="stopbutton">Stop</button>
+			<h1 class = "tempo"><time>00:00:00</time></h1>
+				<div class = "botoes">
+					<button id="start" class = "startbutton">start</button>
+					<button id="stop" class = "stopbutton">stop</button>
+					<button id="clear" class = "clearbutton">clear</button>
+				</div>
 		</div>
 
 		<div class='funcoes'>
