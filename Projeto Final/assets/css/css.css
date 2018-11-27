@@ -49,6 +49,7 @@ iframe {
 	justify-content: space-around;
 	position: absolute;
 	bottom:0;
+	width: 100%;
 }
 
 .funcao_content{
