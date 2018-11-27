@@ -46,14 +46,14 @@ iframe {
 
 .funcoes{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	position: absolute;
 	bottom:0;
 	width: 100%;
 }
 
 .funcao_content{
-	font-size: 6rem;
+	font-size: 5.8rem;
 }
 
 .texto{
