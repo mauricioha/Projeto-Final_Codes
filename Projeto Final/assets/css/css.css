@@ -45,24 +45,19 @@ iframe {
 }
 
 .funcoes{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	position: relative;
-	top: 10.9rem;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	bottom:0;
 }
 
-.cronometro{
-	font-size:4rem;
+.funcao_content{
+	font-size: 5.9rem;
 }
 
-.listat{
-	font-size:4rem;
-}
-
-.dicas{
-	font-size: 4rem;
-}
-
-a{
-	text-decoration:none;
+.texto{
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
 }
